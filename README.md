@@ -17,6 +17,18 @@ A simple and professional multi-page portfolio built for a Web Application Devel
 - `policy.html` — Privacy Policy
 - `log_AI.md` — AI usage in the project
 
+## 🛠️ How to Run Locally
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/MAVIS1267/Web_Application_Development
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd MAVIS1267.github.io
+    ```
+3.  Open `index.html` in your web browser.
+
 ## 🚀 Deployment
 
 This project is deployed by using: **GitHub Pages**
