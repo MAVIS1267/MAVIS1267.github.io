@@ -16,18 +16,6 @@ A simple and professional multi-page portfolio built for a Web Application Devel
 - `map.html` — Map & Media
 - `policy.html` — Privacy Policy
 
-## 🛠️ How to Run Locally
-
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/MAVIS1267/Web_Application_Development
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd your-repo-name
-    ```
-3.  Open `index.html` in your web browser.
-
 ## 🚀 Deployment
 
 This project is deployed by using: **GitHub Pages**
