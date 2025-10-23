@@ -3,117 +3,162 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <style>
-      h2 {
-        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-      }
-
-      .remain {
-        line-height: 2px;
-        font-weight: 100;
-        color: green;
-        margin-bottom: 30px;
-      }
-
-      #Skills {
-        line-height: 2px;
-        font-weight: 100;
-        color: green;
-      }
-
-      h4 {
-        color: rgb(54, 137, 196);
-        margin-bottom: -5px;
-      }
-
-      section {
-        margin-left: 30px;
-        margin-bottom: 40px;
-      }
-
-      footer {
-        margin-left: 30px;
-      }
-    </style>
-
+    <title>Home | Mai Long Thien</title>
     <meta
       name="description"
-      content="Portfolio of Mai Long Thien — Junior AI Engineer with experience in web development and AI projects."
+      content="Portfolio of Mai Long Thien – Junior AI Engineer & Web Developer."
     />
-    <meta
-      name="keywords"
-      content="Mai Long Thien, AI Engineer, Web Developer, HTML, CSS, JavaScript, Machine Learning"
-    />
-    <meta name="author" content="Mai Long Thien" />
-    <meta property="og:title" content="Mai Long Thien | Junior AI Engineer" />
+    <meta property="og:title" content="Home | Mai Long Thien" />
     <meta
       property="og:description"
-      content="Explore my portfolio of AI and web development projects."
+      content="Explore projects, skills, and contact information."
     />
-    <meta
-      property="og:image"
-      content="https://example.com/images/profile.jpg"
-    />
-    <meta property="og:url" content="https://example.com" />
-
-    <link rel="icon" href="/lab1/favicon.png" type="image/png" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <meta property="og:image" content="assets/img/hero_bg.png" />
   </head>
   <body>
-    <section id="intro">
-      <br />
-      <hr style="height: 3px; background-color: black; border: none" />
-      <h2>MAI LONG THIEN</h2>
-      <h3 class="remain">Junior AI Engineer</h3>
-      <address>
-        123 Your Street Your City <br />
-        ST 12345 (123)456-7890 <br />
-        <a href="mailto:no_reply@example.com">no_reply@example.com</a> <br />
-      </address>
-    </section>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header>
+      <nav class="container" aria-label="Main navigation">
+        <h1 class="logo">
+          <a href="index.html" aria-label="Go to Home">Mai Long Thien</a>
+        </h1>
+        <button
+          id="navToggle"
+          aria-expanded="false"
+          aria-controls="primaryNav"
+          class="nav-toggle"
+        >
+          ☰
+        </button>
+        <ul id="primaryNav" class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html" class="">About</a></li>
+          <li><a href="projects.html" class="">Projects</a></li>
+          <li><a href="gallery.html" class="">Gallery</a></li>
+          <li><a href="contact.html" class="">Contact</a></li>
+          <li><a href="map.html" class="">Map</a></li>
+          <li><a href="policy.html" class="">Policy</a></li>
+          <li>
+            <button
+              id="themeToggle"
+              aria-label="Toggle theme"
+              class="theme-toggle"
+            >
+              🌓
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main" class="container">
+      <section class="hero" role="banner" aria-label="Introduction">
+        <div class="hero-content">
+          <h2>Hello, I'm <span>Mai Long Thien</span></h2>
+          <p>
+            A Computer Science student passionate about
+            <strong>Artificial Intelligence</strong> and
+            <strong>Web Development</strong>.
+          </p>
+          <a href="projects.html" class="btn">View My Projects</a>
+        </div>
+      </section>
 
-    <section id="skills">
-      <h3 id="Skills">Skills</h3>
-      <p>
-        HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web
-        Design, Technical Writing, Presentation
-      </p>
-    </section>
+      <section class="grid-2 gap-xl mt-2">
+        <article>
+          <h3>About this Portfolio</h3>
+          <p>
+            This site is built as a student-friendly, professional portfolio. It
+            emphasizes HTML5 semantics, responsiveness, accessibility, and clean
+            code. It is intentionally simple to learn from, yet complete enough
+            for real submissions and job applications.
+          </p>
+          <p>
+            It follows a practical structure: an overview with highlights,
+            detailed subpages for projects, gallery, blog, and a fully featured
+            contact form. Use it as a foundation and customize sections as your
+            experience grows.
+          </p>
+        </article>
+        <figure class="shadow radius">
+          <img
+            src="assets/img/hero_bg.png"
+            alt="assets/image/alt.png"
+            loading="lazy"
+          />
+          <figcaption style="text-align: center">
+            Clean, minimal, accessible design.
+          </figcaption>
+        </figure>
+      </section>
 
-    <section id="education">
-      <h3 class="remain">Education</h3>
-      <h4>School Name, Location - Degree</h4>
-      <p>
-        Month 20xx to Month 20xx <br />
-        List of exciting things you did at university
-      </p>
-    </section>
+      <section class="features mt-3">
+        <article>
+          <h3>💡 Creativity</h3>
+          <p>
+            I design projects blending AI and design thinking for real-world
+            impact. I love iterative prototyping, user feedback, and measurable
+            outcomes.
+          </p>
+        </article>
+        <article>
+          <h3>⚙️ Engineering</h3>
+          <p>
+            Comfortable with Python, Java, and the web stack (HTML, CSS,
+            JavaScript). I enjoy building tools that make research and learning
+            smoother.
+          </p>
+        </article>
+        <article>
+          <h3>🌍 Community</h3>
+          <p>
+            Active learner and collaborator. I believe in sharing knowledge,
+            clear documentation, and reproducible results.
+          </p>
+        </article>
+      </section>
 
-    <section id="experience">
-      <h3 class="remain">Experience</h3>
+      <section class="timeline mt-3">
+        <h3>Highlights & Milestones</h3>
+        <ol>
+          <li>
+            <strong>2025</strong> — Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Hic maxime, molestiae atque quaerat vitae facilis
+            nostrum voluptatum, debitis laboriosam ex magnam odio sed aliquid
+            optio veniam non? Animi, eius delectus.
+          </li>
+          <li>
+            <strong>2024</strong> — Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Earum, porro! Dolores natus exercitationem omnis,
+            vero necessitatibus odit commodi ipsa, dicta expedita repellendus
+            mollitia rem doloremque quaerat perspiciatis, quae voluptate quidem!
+          </li>
+          <li>
+            <strong>2023</strong> — Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Mollitia veritatis atque, temporibus a ut quae
+            voluptatem ratione facere cupiditate corrupti velit libero ex unde
+            fugiat quisquam, eius perferendis modi distinctio.
+          </li>
+        </ol>
+      </section>
 
-      <h4>Company Name, Location - Job Title</h4>
-      <p>Month 20xx to Month 20xx</p>
-      <ul>
-        <li>List of achievements</li>
-        <li>List of achievements</li>
-        <li>List of achievements</li>
-      </ul>
-      <p>Skill: List of skills used or gained at this company</p>
-
-      <h4>Company Name, Location - Job Title</h4>
-      <p>Month 20xx to Month 20xx</p>
-      <ul>
-        <li>List of achievements</li>
-        <li>List of achievements</li>
-        <li>List of achievements</li>
-      </ul>
-      <p>Skill: List of skills used or gained at this company</p>
-    </section>
-
+      <section class="cta mt-3">
+        <h3>Want to collaborate?</h3>
+        <p>
+          I'm open to research assistant roles and internships in AI and web
+          engineering. Reach me via the contact form or email.
+        </p>
+        <a class="btn" href="contact.html">Get in Touch</a>
+      </section>
+    </main>
     <footer>
-      <h3 class="remain">Across the Internet</h3>
-      <p>Add your LinkedIn, GitHub profile links</p>
+      <p>
+        &copy; 2025 Mai Long Thien • <a href="policy.html">Policies</a> •
+        <a href="mailto:example@email.com">Contact Email</a>
+      </p>
     </footer>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
