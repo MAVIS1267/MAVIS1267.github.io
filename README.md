@@ -15,6 +15,7 @@ A simple and professional multi-page portfolio built for a Web Application Devel
 - `contact.html` — Contact Form
 - `map.html` — Map & Media
 - `policy.html` — Privacy Policy
+- `log_AI.md` — AI usage in the project
 
 ## 🚀 Deployment
 
